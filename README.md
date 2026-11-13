@@ -76,13 +76,24 @@ O formulário **não guarda nada**: ele monta a mensagem e abre o WhatsApp do vi
 - [ ] Logo (hoje é um logotipo provisório em texto + símbolo, em `index.html` e `img/favicon.svg`)
 - [ ] `privacidade.html`: razão social e CNPJ
 - [ ] Depois de trocar todas as fotos: apagar `creditos.html` e o link "Créditos das imagens" no rodapé das páginas
+- [ ] Remover `<meta name="robots" content="noindex">` das 4 páginas, para o site passar a aparecer no Google
 
 ## Publicação
 
-Qualquer hospedagem de site estático serve (Netlify, Vercel, Cloudflare Pages, GitHub Pages ou a hospedagem do domínio do cliente). Basta enviar **o conteúdo da pasta `site/`**.
+### Versão de prévia (atual): GitHub Pages
 
-Depois de publicar:
-- Troque `og:image` (no `<head>` de `index.html` e `projetos.html`) pela URL completa da imagem, ex.: `https://carpintaria.com.br/img/projetos/cozinha-01.webp`. É a imagem que aparece quando alguém compartilha o link no WhatsApp.
+O site está no ar em **https://pythonimpressionador.github.io/ProjetoMoveisPlanejados/**
+
+- Cada `git push` na branch `main` publica a pasta `site/` automaticamente em cerca de 1 minuto (`.github/workflows/publicar-site.yml`). Dá para acompanhar na aba **Actions** do repositório.
+- Enquanto o conteúdo for provisório, as páginas têm `noindex` (o link funciona, mas o site não aparece nas buscas do Google).
+- A prévia do link no WhatsApp usa `img/og-home.jpg` e `img/og-projetos.jpg` (1200×630, JPG).
+
+### Mudando para outra hospedagem ou domínio próprio
+
+Qualquer hospedagem de site estático serve (a do domínio do cliente, Netlify, Cloudflare Pages…). Basta enviar **o conteúdo da pasta `site/`**. O GitHub Pages também aceita domínio próprio.
+
+Depois de mudar:
+- Troque a URL base `https://pythonimpressionador.github.io/ProjetoMoveisPlanejados/` em `og:url` e `og:image` (no `<head>` de `index.html` e `projetos.html`) pelo novo endereço.
 - Cadastre o site no Google Search Console e no Perfil da Empresa no Google (a página já envia os dados da empresa em formato estruturado para o Google).
 
 ## Notas técnicas
