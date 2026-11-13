@@ -1,0 +1,17 @@
+# Normaliza finais de linha de arquivos de texto
+* text=auto
+
+*.html text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+*.svg  text eol=lf
+*.md   text eol=lf
+*.py   text eol=lf
+
+# Binários
+*.webp binary
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.gif  binary
+*.ico  binary

@@ -1,0 +1,21 @@
+# Sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Python (tools/)
+__pycache__/
+*.pyc
+.venv/
+
+# Fotos originais do cliente (pesadas) — versionar só as otimizadas em site/img/
+fotos-originais/
+
+# Temporários
+*.tmp
+*.log
