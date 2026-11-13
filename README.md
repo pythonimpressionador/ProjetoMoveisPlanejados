@@ -70,7 +70,7 @@ O formulário **não guarda nada**: ele monta a mensagem e abre o WhatsApp do vi
 
 - [ ] `config.js`: WhatsApp, telefone, e-mail, endereço, CEP, busca do mapa, horários, Instagram, nota e quantidade de avaliações do Google, ano de fundação, ambientes entregues, anos de garantia
 - [ ] Todas as fotos de `img/projetos/` e `img/sobre/` (fotos do Wikimedia Commons, só para demonstração)
-- [ ] As 3 ilustrações de antes e depois (`img/antes-depois/`)
+- [ ] As 3 imagens de antes e depois (`img/antes-depois/`): são **renders 3D ilustrativos**, não obras reais da Carpintaria. Trocar por fotos reais de clientes (antes e depois do mesmo ângulo)
 - [ ] Depoimentos (`dados.js`), que precisam ser **reais**, com autorização do cliente
 - [ ] Textos com números e promessas: prazo "30 a 45 dias", "garantia de 5 anos", "fabricação própria", "projeto 3D", "responde no mesmo dia útil"
 - [ ] Logo (hoje é um logotipo provisório em texto + símbolo, em `index.html` e `img/favicon.svg`)

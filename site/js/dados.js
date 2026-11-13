@@ -41,8 +41,8 @@ window.PROJETOS = [
 window.ANTES_DEPOIS = [
   {
     ambiente: "Cozinha",
-    antes: "img/antes-depois/cozinha-antes.svg",
-    depois: "img/antes-depois/cozinha-depois.svg",
+    antes: "img/antes-depois/cozinha-antes.webp",
+    depois: "img/antes-depois/cozinha-depois.webp",
     titulo: "Cozinha completa em apartamento novo",
     local: "Apartamento · Centro",
     prazo: "35 dias",
@@ -50,8 +50,8 @@ window.ANTES_DEPOIS = [
   },
   {
     ambiente: "Dormitório",
-    antes: "img/antes-depois/dormitorio-antes.svg",
-    depois: "img/antes-depois/dormitorio-depois.svg",
+    antes: "img/antes-depois/dormitorio-antes.webp",
+    depois: "img/antes-depois/dormitorio-depois.webp",
     titulo: "Suíte com guarda-roupa de parede a parede",
     local: "Apartamento · Vila Nova",
     prazo: "28 dias",
@@ -59,8 +59,8 @@ window.ANTES_DEPOIS = [
   },
   {
     ambiente: "Sala",
-    antes: "img/antes-depois/sala-antes.svg",
-    depois: "img/antes-depois/sala-depois.svg",
+    antes: "img/antes-depois/sala-antes.webp",
+    depois: "img/antes-depois/sala-depois.webp",
     titulo: "Sala com painel ripado e rack suspenso",
     local: "Casa · Jardim América",
     prazo: "21 dias",
